@@ -1,0 +1,13 @@
+.gernres {
+    display: flex;
+    gap: 15px;
+    .genre {
+        background-color: var(--pink);
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
+        white-space: nowrap;
+
+    }
+}
