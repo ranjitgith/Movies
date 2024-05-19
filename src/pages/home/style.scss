@@ -1,18 +1,17 @@
 .carouselSection {
-    position: relative;
-    margin-bottom: 70px;
-    width: 1200px;
-    border: 2px solid blue;
-    & > .carouselWrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 20px;
-        border: 2px solid red;
-    }
-    .carouselTitle {
-        font-size: 24px;
-        color: white;
-        font-weight: normal;
-    }
+  position: relative;
+  margin-bottom: 70px;
+  width: 90%;
+  & > .carouselWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 2px solid red;
+  }
+  .carouselTitle {
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+  }
 }
